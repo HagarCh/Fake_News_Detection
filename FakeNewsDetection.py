@@ -40,7 +40,7 @@ from keras.preprocessing.text import Tokenizer
 from keras.layers import LSTM, Dropout, Dense, Input,Embedding
 
 # Import the dataset from the csv file
-train = pd.read_csv (".../input/train.csv")
+train = pd.read_csv ("data/FakeNewsNet.csv")
 # Data structure
 print(train.head())
 print(train.shape)
