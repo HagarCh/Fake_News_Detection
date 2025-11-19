@@ -110,7 +110,7 @@ def read_glove_vector(glove_vec):
 
 
 # word_to_vec_map: dictionary mapping words to their GloVe vector representation
-word_to_vec_map = read_glove_vector(".../input/glove.6B.50d.txt")
+word_to_vec_map = read_glove_vector("data/glove.6B.50d.txt")
 
 tokenizer = Tokenizer(num_words=5000)
 tokenizer.fit_on_texts(x_train_sw)
