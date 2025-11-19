@@ -39,9 +39,8 @@ from sklearn.metrics import confusion_matrix,ConfusionMatrixDisplay
 from keras.preprocessing.text import Tokenizer
 from keras.layers import LSTM, Dropout, Dense, Input,Embedding
 
-#%%Import the dataset from the csv file
-train = pd.read_csv (r"C:\Users\roeec\OneDrive\Desktop\Hagar Project\binaryModel\train.csv")
-#train = pd.read_csv (".../input/train.csv")
+# Import the dataset from the csv file
+train = pd.read_csv (".../input/train.csv")
 # Data structure
 print(train.head())
 print(train.shape)
